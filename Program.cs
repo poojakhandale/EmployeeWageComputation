@@ -8,7 +8,7 @@ namespace EmployeeWageComputation
         public static void Main(string[] args)
         {
             // Console.WriteLine("WELOME TO THE EMPLOYEEWADGECOMPUTATION");
-            PartTime.partTime();
+            PartTimeswitch.partTime();
 
        
    
