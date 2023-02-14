@@ -5,11 +5,14 @@ namespace EmployeeWageComputation
     {
         public static void Main(string[] args)
         {
-           // Console.WriteLine("WELOME TO THE EMPLOYEEWADGECOMPUTATION");
-           EmployeeCheck.CheckEmployee();
-          
+            // Console.WriteLine("WELOME TO THE EMPLOYEEWADGECOMPUTATION");
+            //
+            //EmployeeCheck.CheckEmployee();
+            DailyWage.calculateDailywage();
+
         }
     }
 }
+
   
        
