@@ -1,4 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using EmployeeWageComputation;
+
 namespace EmployeeWageComputation
 {
     public class Program
@@ -6,9 +8,10 @@ namespace EmployeeWageComputation
         public static void Main(string[] args)
         {
             // Console.WriteLine("WELOME TO THE EMPLOYEEWADGECOMPUTATION");
-            //
-            //EmployeeCheck.CheckEmployee();
-            DailyWage.calculateDailywage();
+            PartTime.partTime();
+
+       
+   
 
         }
     }
